@@ -45,3 +45,4 @@ tqdm>=4.66.0                      # Progress bars
 requests>=2.32.0
 langchain-chroma
 deno>=2.3.0
+bgutil-ytdlp-pot-provider
