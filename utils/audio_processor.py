@@ -10,6 +10,7 @@ def download_youtube_audio(url :str) ->str:
     ydl_opts = {
         "format": "bestaudio/best",
         "js_runtimes": {"deno": {}},
+        "remote_components": {"ejs": ["github"]},
         "outtmpl": output_path,
         "postprocessors": [
             {
